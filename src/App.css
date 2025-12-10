@@ -1,0 +1,70 @@
+* {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 1000;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.App-header h1 {
+  margin: 0 0 20px 0;
+  font-size: 2rem;
+}
+
+.nav-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.nav-tabs button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #6c757d;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-tabs button.active {
+  background-color: #007bff;
+}
+
+.nav-tabs button:hover:not(.active) {
+  background-color: #6c757d;
+}
+
+.App-main {
+  padding: 10px;
+  min-height: calc(80vh - 200px);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.App-footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  box-sizing: border-box;
+}
